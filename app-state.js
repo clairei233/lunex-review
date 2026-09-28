@@ -95,6 +95,12 @@
     return next;
   }
 
+  function dropIndex(fromIndex, targetIndex, placeAfter) {
+    let index = targetIndex + (placeAfter ? 1 : 0);
+    if (fromIndex < index) index -= 1;
+    return Math.max(0, index);
+  }
+
   function randomizeDefaults(state, items, random = Math.random) {
     const next = clone(state);
     next.blocks.filter(block => block.kind === 'default').forEach(block => {
@@ -144,7 +150,7 @@
       if (!categories.includes(block.sourceCategory)) return;
       const replacement = newestFor(items, block.sourceCategory);
       if (!replacement) return;
-      const validFile = items.some(item => item.category === block.sourceCategory && item.file === block.file);
+      const validFile = files.has(block.file);
       blocks.push({
         id:uniqueId(block.id || makeId(block.sourceCategory, index)),
         kind:'default', sourceCategory:block.sourceCategory,
@@ -173,6 +179,6 @@
   return {
     STATE_VERSION, createDefaultState, migrateLegacyState, normalizeState,
     markSeen, selectBlockFile, stepBlock, insertBlock, removeBlock, moveBlock,
-    moveBlockTo, randomizeDefaults, filterResults
+    moveBlockTo, dropIndex, randomizeDefaults, filterResults
   };
 });

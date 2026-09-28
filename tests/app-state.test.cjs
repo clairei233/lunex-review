@@ -82,6 +82,13 @@ test('moves a dragged block to an exact index without losing blocks', () => {
   assert.deepEqual(new Set(next.blocks.map(x => x.id)), new Set(state.blocks.map(x => x.id)));
 });
 
+test('calculates the final drop index without skipping the target', () => {
+  assert.equal(State.dropIndex(0, 1, true), 1);
+  assert.equal(State.dropIndex(0, 2, false), 1);
+  assert.equal(State.dropIndex(3, 1, true), 2);
+  assert.equal(State.dropIndex(3, 1, false), 1);
+});
+
 test('randomizes defaults inside source category without touching custom pages or order', () => {
   let state = State.createDefaultState(items, categories);
   state = State.insertBlock(state, items[0].file, 'custom-1');
@@ -139,4 +146,12 @@ test('normalizes invalid files, duplicate ids, seen entries, and filters', () =>
   assert.deepEqual(state.resultFilters, {
     category:'all', version:'all', likeStatus:'all', sort:'likes-desc'
   });
+});
+
+test('normalization preserves a valid cross-category selection in a default block', () => {
+  const candidate = State.createDefaultState(items, categories);
+  candidate.blocks[0].file = '02-product/c.png';
+  const state = State.normalizeState(candidate, items, categories);
+  assert.equal(state.blocks[0].file, '02-product/c.png');
+  assert.equal(state.blocks[0].sourceCategory, '01-hero');
 });
