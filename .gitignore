@@ -3,3 +3,4 @@ overview-layout-options.html
 supabase-schema.sql
 Thumbs.db
 .DS_Store
+.superpowers/
