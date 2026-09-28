@@ -18,8 +18,10 @@ test('known section boundaries do not include the neighboring section', () => {
   assert.equal(find(8, '05-purchase').source_top, '1461');
   assert.equal(find(15, '05-purchase').source_bottom, '1810');
   assert.equal(find(15, '06-benefits').source_top, '1810');
-  assert.equal(find(8, '03-scenarios').source_bottom, '1150');
-  assert.equal(find(8, '04-in-the-box').source_top, '1150');
+  assert.equal(find(8, '03-scenarios').source_bottom, '1154');
+  assert.equal(find(8, '04-in-the-box').source_top, '1154');
+  assert.equal(find(15, '04-in-the-box').source_bottom, '1588');
+  assert.equal(find(15, '05-purchase').source_top, '1588');
   assert.equal(find(9, '05-purchase').source_top, '1580');
   assert.equal(find(6, '06-benefits'), undefined);
 });

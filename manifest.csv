@@ -50,7 +50,7 @@ version,version_name,category,category_name,file,original,width,height,source_to
 5,黑白画册,03-scenarios,使用场景,03-scenarios/v05-scenarios.png,originals/v05.png,822,261,905,1166
 6,地形档案,03-scenarios,使用场景,03-scenarios/v06-scenarios.png,originals/v06.png,746,359,967,1326
 7,晨曦远征,03-scenarios,使用场景,03-scenarios/v07-scenarios.png,originals/v07.png,839,273,965,1238
-8,杂志封面,03-scenarios,使用场景,03-scenarios/v08-scenarios.png,originals/v08.png,725,283,867,1150
+8,杂志封面,03-scenarios,使用场景,03-scenarios/v08-scenarios.png,originals/v08.png,725,287,867,1154
 9,全屏电影,03-scenarios,使用场景,03-scenarios/v09-scenarios.png,originals/v09.png,748,332,699,1031
 10,工业说明书,03-scenarios,使用场景,03-scenarios/v10-scenarios.png,originals/v10.png,1024,205,1004,1209
 11,户外目录,03-scenarios,使用场景,03-scenarios/v11-scenarios.png,originals/v11.png,768,235,692,927
@@ -72,14 +72,14 @@ version,version_name,category,category_name,file,original,width,height,source_to
 5,黑白画册,04-in-the-box,包装清单,04-in-the-box/v05-in-the-box.png,originals/v05.png,822,217,1166,1383
 6,地形档案,04-in-the-box,包装清单,04-in-the-box/v06-in-the-box.png,originals/v06.png,746,273,1326,1599
 7,晨曦远征,04-in-the-box,包装清单,04-in-the-box/v07-in-the-box.png,originals/v07.png,839,236,1238,1474
-8,杂志封面,04-in-the-box,包装清单,04-in-the-box/v08-in-the-box.png,originals/v08.png,725,311,1150,1461
+8,杂志封面,04-in-the-box,包装清单,04-in-the-box/v08-in-the-box.png,originals/v08.png,725,307,1154,1461
 9,全屏电影,04-in-the-box,包装清单,04-in-the-box/v09-in-the-box.png,replacement-sources/v09-in-the-box.png,2172,724,0,724
 10,工业说明书,04-in-the-box,包装清单,04-in-the-box/v10-in-the-box.png,replacement-sources/v10-in-the-box.png,2172,724,0,724
 11,户外目录,04-in-the-box,包装清单,04-in-the-box/v11-in-the-box.png,replacement-sources/v11-in-the-box.png,2172,724,0,724
 12,瑞士网格,04-in-the-box,包装清单,04-in-the-box/v12-in-the-box.png,originals/v12.png,1024,188,876,1064
 13,日系精密,04-in-the-box,包装清单,04-in-the-box/v13-in-the-box.png,originals/v13.png,1024,169,986,1155
 14,黑橙先锋,04-in-the-box,包装清单,04-in-the-box/v14-in-the-box.png,originals/v14.png,776,316,1175,1491
-15,地形图谱,04-in-the-box,包装清单,04-in-the-box/v15-in-the-box.png,originals/v15.png,772,236,1376,1612
+15,地形图谱,04-in-the-box,包装清单,04-in-the-box/v15-in-the-box.png,originals/v15.png,772,212,1376,1588
 16,故事卷轴,04-in-the-box,包装清单,04-in-the-box/v16-in-the-box.png,originals/v16.png,830,245,1119,1364
 18,天气窗口,04-in-the-box,包装清单,04-in-the-box/v18-in-the-box.png,replacement-sources/v18-in-the-box.png,2172,724,0,724
 19,野外实验室,04-in-the-box,包装清单,04-in-the-box/v19-in-the-box.png,replacement-sources/v19-in-the-box.png,2170,725,0,725
@@ -101,7 +101,7 @@ version,version_name,category,category_name,file,original,width,height,source_to
 12,瑞士网格,05-purchase,版本选购,05-purchase/v12-purchase.png,originals/v12.png,1024,242,1064,1306
 13,日系精密,05-purchase,版本选购,05-purchase/v13-purchase.png,originals/v13.png,1024,185,1155,1340
 14,黑橙先锋,05-purchase,版本选购,05-purchase/v14-purchase.png,originals/v14.png,776,288,1491,1779
-15,地形图谱,05-purchase,版本选购,05-purchase/v15-purchase.png,originals/v15.png,772,198,1612,1810
+15,地形图谱,05-purchase,版本选购,05-purchase/v15-purchase.png,originals/v15.png,772,222,1588,1810
 16,故事卷轴,05-purchase,版本选购,05-purchase/v16-purchase.png,originals/v16.png,830,244,1364,1608
 18,天气窗口,05-purchase,版本选购,05-purchase/v18-purchase.png,replacement-sources/v18-purchase.png,2172,724,0,724
 19,野外实验室,05-purchase,版本选购,05-purchase/v19-purchase.png,replacement-sources/v19-purchase.png,2172,724,0,724
